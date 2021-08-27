@@ -1,0 +1,15 @@
+*{
+    margin:0;
+}
+header{
+    display:flex;
+    height:80px ;
+    width: 100%;
+    background: teal;
+    align-items: center;
+}
+
+img{
+    height: 70px;
+    border-radius:50%;
+}

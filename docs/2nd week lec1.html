@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        #container {
+            height: 10cm;
+            width: 13cm;
+            background: rgb(175, 173, 173);
+        }
+
+        header {
+            width: 480px;
+            height: 66px;
+            background: green;
+            margin-left: 5px;
+            position: absolute;
+            top: 5px;
+        }
+
+        #Fcontainer {
+            height: 6cm;
+            width: 120px;
+            background: blue;
+            position: absolute;
+            top: 80px;
+            left: 5px;
+        }
+
+        #Scontainer {
+            height: 292px;
+            width: 354px;
+            background: rgb(158, 16, 16);
+            position: absolute;
+            left: 131px;
+            top: 80px;
+        }
+
+        .fchild {
+            height: 150px;
+            width: 100px;
+            background: yellow;
+        }
+
+        #Fchild {
+            position: absolute;
+            top: 10px;
+            left: 10px
+        }
+        
+        #Schild {
+            position: absolute;
+            top: 10px;
+            left: 120px;
+        }
+
+        #Tchild {
+            position: absolute;
+            top: 10px;
+            left: 230px;
+        }
+
+        #lchid {
+            width: 320px;
+            height: 90px;
+            background: purple;
+            position: absolute;
+            left: 10px;
+            top: 170px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header></header>
+        <div id="Fcontainer"></div>
+        <div id="Scontainer">
+            <div id="Fchild" class="fchild"></div>
+            <div id="Schild" class="fchild"></div>
+            <div id="Tchild" class="fchild"></div>
+            <div id="lchid"></div>
+        </div>
+    </div>
+</body>
+
+</html>
